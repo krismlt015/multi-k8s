@@ -1,0 +1,2 @@
+encrypting service-account.json for krismlt015/multi-k8s
+storing result as service-account.json.enc
