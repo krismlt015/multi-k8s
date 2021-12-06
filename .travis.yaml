@@ -19,7 +19,7 @@ before_install:
   - docker build -t kfenech2001/react-test -f ./client/Dockerfile.dev ./client
 
 script:
-  - docker run -e CI=true kfenech2001/react-test npm test
+  - docker run kfenech2001/react-test npm test -- --coverage
 
 deploy:
   provider: script
